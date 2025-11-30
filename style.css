@@ -74,6 +74,10 @@ margin: 0;
     align-items: center;
 }
 
+.textCenter {
+    text-align: center;
+}
+
 /* -------------------------------------------------------------------------------------- */
 /* mes classe de largeur*/
 
