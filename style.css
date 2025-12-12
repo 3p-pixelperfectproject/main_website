@@ -44,6 +44,10 @@ margin: 0;
     background-color: yellow;
 }
 
+.bgsmart {
+    background-color: rgb(37, 35, 35);
+}
+
 /* -------------------------------------------------------------------------------------- */
 /* les classes fonctionnelle flex*/
 
@@ -85,6 +89,10 @@ align-content: center;
 
 /* -------------------------------------------------------------------------------------- */
 /* mes classe de largeur*/
+
+.w-10 {
+    width: 10%;
+}
 
 .w-20 {
     width: 20%;
@@ -233,6 +241,15 @@ footer {
 
     height: 150px;
     width: 150px;
+    border-radius: 50%;
+    border-color: black;
+
+    }
+
+        .imgROND2 {
+
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     border-color: black;
 
