@@ -285,7 +285,8 @@ footer-ac {
     .navFiche
     {
 
-        padding: 200px;
+        padding: 100px;
+    ;
     }
 
     .btnFiche{
@@ -302,6 +303,7 @@ footer-ac {
     left: 0;
 }
 
+<<<<<<< HEAD
 
 .txt-golden {
     color: #e1a971;
@@ -328,3 +330,5 @@ footer-ac {
 .backRAIS {
     color: #59FF53;
 }
+=======
+>>>>>>> bfab57c9aab72406a14bcd924f3480033ed5dbcb
