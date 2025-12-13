@@ -118,6 +118,10 @@ align-content: center;
     width: 50%;
 }
 
+.w-60 {
+    width: 60%;
+}
+
 .w-73{
     width: 73%;
 }
@@ -217,8 +221,8 @@ ul {
 header-ac {
     position: fixed;
     z-index: 1;
-    top : 5px ;
-    left: 5px;
+    top : 0px ;
+    left: 0px;
     width: 100%;
  
     
@@ -256,8 +260,8 @@ footer-ac {
 
         .imgROND2 {
 
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     border-color: black;
 
@@ -265,6 +269,10 @@ footer-ac {
 
     .border-radiux-5 {
         border-radius: 5px;
+    }
+
+        .border-radiux-10 {
+        border-radius: 10px;
     }
 
     .border-black {
@@ -292,4 +300,31 @@ footer-ac {
     position: absolute;
     top: -93px;
     left: 0;
+}
+
+
+.txt-golden {
+    color: #e1a971;
+}
+
+.back-golden {
+    background-color:#996830;
+}
+
+
+.size-90 {
+    font-size: 90px;
+}
+
+
+.backVINC {
+    color: #FFA800;
+}
+
+.backADEM {
+    color: #9A0000;
+}
+
+.backRAIS {
+    color: #59FF53;
 }
