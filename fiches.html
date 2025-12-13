@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>site principale</title>
+    <title>3P Pixel Perfect Project</title>
+    <script src="script.js" defer></script>
 
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
@@ -74,8 +75,17 @@
 
         <!-- POUR ADEM -->
 
+        <div class="navFiche flex space-between"> 
+            
+        <div class="w-25 menuFiche">
+        <button class="btnFiche w-100 mt-top-25" onclick="ouvrirFicheBP()">FICHE 3 : BANQUE POPULAIRE</button> <br>
+        <button class="btnFiche w-100 mt-top-25" onclick="ouvrirFicheSFI()"> FICHE 2 : SFI </button><br>
+        <button class="btnFiche w-100 mt-top-25" onclick="ouvrirFicheDoing()"  > FICHE 1 : DOING </button>
+        </div>    
 
+        <div id="fiches"class="w-73"> </div>
 
+        </div>
 
 
 
