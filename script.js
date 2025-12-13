@@ -2,7 +2,17 @@ function ouvrirFicheDoing(){
 
     document.getElementById("fiches").innerHTML = `
     
+<<<<<<< Updated upstream
  
+=======
+                            <h1> LA FICHE DE DOING </h1>
+
+                            
+
+
+
+
+>>>>>>> Stashed changes
 
         <!-- section-01 -->
         <section class="container-1000 margin-top-100 margin-bottom-250 ">
@@ -156,7 +166,14 @@ function ouvrirFicheSFI(){
 
     document.getElementById("fiches").innerHTML = `
     
+<<<<<<< Updated upstream
  
+=======
+                            <h1> LA FICHE DE SFI </h1>
+
+
+
+>>>>>>> Stashed changes
             <!-- section-01 -->
             <section class="container-800 margin-top-100 margin-bottom-250 ">
 
