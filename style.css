@@ -25,6 +25,13 @@ margin: 0;
     margin-right: auto;
 }
 
+.container-800 {
+    max-width: 800PX;
+    width : 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* -------------------------------------------------------------------------------------- */
 /* Test de visualisation pour les nuls */
 
@@ -91,6 +98,10 @@ align-content: center;
     text-align: center;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* -------------------------------------------------------------------------------------- */
 /* mes classe de largeur*/
 
@@ -104,6 +115,10 @@ align-content: center;
 
 .w-25 {
     width: 25%;
+}
+
+.w-28 {
+    width: 28%;
 }
 
 .w-30 {
@@ -328,3 +343,104 @@ footer-ac {
 .backRAIS {
     color: #59FF53;
 }
+
+.WTF-rendre-la-dedans {
+    object-fit: cover;
+}
+
+.WTF-rendre-la-dedans2 {
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+ 
+.margin-top-100 {
+    margin-top: 100px;
+}
+ 
+.margin-top-150 {
+    margin-top: 150px;
+}
+ 
+.margin-top-180 {
+    margin-top: 180px;
+}
+ 
+.margin-top-25 {
+    margin-top: 25px;
+}
+ 
+ 
+.margin-top-50 {
+    margin-top: 50px;
+}
+ 
+.margin-top-250 {
+    margin-top: 250px;
+}
+ 
+.margin-top-300 {
+    margin-top: 300px;
+}
+ 
+.margin-top-200 {
+    margin-top: 200px;
+}
+ 
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+ 
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+ 
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+ 
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+ 
+.margin-bottom-250 {
+    margin-bottom: 250px;
+}
+ 
+.margin-right-200 {
+    margin-bottom: 200px;
+}
+ 
+.padding-20 {
+    padding: 20px;
+}
+ 
+.padding-10 {
+    padding: 10px;
+}
+ 
+.padding-50 {
+    padding: 50px;
+}
+ 
+.gap-40 {
+    gap: 40 Px;
+}
+ 
+.gap-12 {
+    gap: 12 Px;
+}
+ 
+.column-gap-20 {
+    column-gap: 20px;
+}
+ 
+.weight-bolder {
+    font-weight: bolder;
+}
+ 
+ 
