@@ -144,6 +144,9 @@ align-content: center;
 .w-100 {
     width: 100%;
 }
+.w-98 {
+    width: 98%;
+}
 
 /* -------------------------------------------------------------------------------------- */
 /* mes classe de largeur*/
@@ -300,9 +303,14 @@ footer-ac {
     .navFiche
     {
 
-        padding: 200px;
+            padding-top: 250px;
+            padding-left: 200px; 
     }
 
+    .menuFiche{
+        padding-right: 50px;
+    }
+    
     .btnFiche1{
         padding: 20px;
         background-color: #9A0000;
@@ -333,6 +341,22 @@ footer-ac {
     left: 0;
 }
 
+ .pColore{
+    color:#FE6500;
+    background-color: black;
+    
+    
+ }
+
+  .pColore2{
+    color: #FF9700;
+    background-color: black;
+ }
+
+   .pColore3{
+    color: #53FD56;
+    background-color: black;
+ }
 
 .txt-golden {
     color: #e1a971;
@@ -460,3 +484,48 @@ footer-ac {
 }
  
  
+.txtEnGras{
+    font-weight: bold;
+}
+
+/* survol image équipe*/
+.survol{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background: #000;
+    overflow: hidden;
+}
+
+.survol img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: .4s ease;
+}
+
+.survol:hover img{
+opacity: 0.5;
+transform:scale(1.4) rotate(15deg);
+}
+
+/* survol image remerciement*/
+.survol2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: #000;
+    overflow: hidden;
+}
+
+.survol2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: .4s ease;
+}
+
+.survol2:hover img{
+opacity: 0.5;
+transform:scale(1.2)  ;
+}
