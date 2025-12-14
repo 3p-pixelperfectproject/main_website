@@ -483,6 +483,7 @@ footer-ac {
     font-weight: bold;
 }
 
+/* survol image équipe*/
 .survol{
     width: 400px;
     height: 300px;
@@ -501,4 +502,25 @@ footer-ac {
 .survol:hover img{
 opacity: 0.5;
 transform:scale(1.4) rotate(15deg);
+}
+
+/* survol image remerciement*/
+.survol2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: #000;
+    overflow: hidden;
+}
+
+.survol2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: .4s ease;
+}
+
+.survol2:hover img{
+opacity: 0.5;
+transform:scale(1.2)  ;
 }
