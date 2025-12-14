@@ -373,3 +373,31 @@ function ouvrirFicheBP(){
 }
 
 ouvrirFicheBP()
+
+function changerImageAdem(){
+
+                document.getElementById("buttonAdem").innerHTML =  `
+                
+      <img  onclick="changerImageAdem()"  src="asset/ADEMCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
+                                         <a href="fiches.html"> <p class="pColore textCenter">Fiches<p></a>     
+                                                   `
+}
+
+
+
+function changerImageVincent(){
+
+                document.getElementById("buttonVincent").innerHTML =  `
+                
+      <img  onclick="changerImageAdem()"  src="asset/VINCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
+                                <a href="equipe.html"><p class="pColore2 textCenter">Equipe<p></a>
+                                                   `
+}
+function changerImageRais(){
+
+                document.getElementById("buttonRais").innerHTML =  `
+                
+      <img  onclick="changerImageAdem()"  src="asset/RAISCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
+                                            <a href="remerciement.html">  <p class="pColore3 textCenter">Remerciements<p></a>
+                                                   `
+}
