@@ -25,6 +25,13 @@ margin: 0;
     margin-right: auto;
 }
 
+.container-800 {
+    max-width: 800PX;
+    width : 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* -------------------------------------------------------------------------------------- */
 /* Test de visualisation pour les nuls */
 
@@ -91,6 +98,10 @@ align-content: center;
     text-align: center;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* -------------------------------------------------------------------------------------- */
 /* mes classe de largeur*/
 
@@ -106,6 +117,10 @@ align-content: center;
     width: 25%;
 }
 
+.w-28 {
+    width: 28%;
+}
+
 .w-30 {
     width: 30%;
 }
@@ -116,6 +131,10 @@ align-content: center;
 
 .w-50 {
     width: 50%;
+}
+
+.w-60 {
+    width: 60%;
 }
 
 .w-73{
@@ -217,8 +236,8 @@ ul {
 header-ac {
     position: fixed;
     z-index: 1;
-    top : 5px ;
-    left: 5px;
+    top : 0px ;
+    left: 0px;
     width: 100%;
  
     
@@ -256,8 +275,8 @@ footer-ac {
 
         .imgROND2 {
 
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     border-color: black;
 
@@ -265,6 +284,10 @@ footer-ac {
 
     .border-radiux-5 {
         border-radius: 5px;
+    }
+
+        .border-radiux-10 {
+        border-radius: 10px;
     }
 
     .border-black {
@@ -277,16 +300,31 @@ footer-ac {
     .navFiche
     {
 
-        padding: 100px;
-    ;
+        padding: 200px;
     }
 
-    .btnFiche{
+    .btnFiche1{
         padding: 20px;
-        background-color: red;
+        background-color: #9A0000;
         color:white; 
+        border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%  ;
     }
  
+    .btnFiche2{
+        padding: 20px;
+        background-color: #FFA800;
+        color:white; 
+        border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%  ;
+    }
+
+        .btnFiche3{
+        padding: 20px;
+        background-color: #59FF53;
+        color:white; 
+        border-radius: 100% 0% 100% 0% / 100% 0% 100% 0% ;
+    }
+
+
     .big-number {
     color: rgba(11, 11, 11, 0.434);
     font-size: 150px;
@@ -309,3 +347,130 @@ footer-ac {
     color: #53FD56;
     background-color: black;
  }
+
+.txt-golden {
+    color: #e1a971;
+}
+
+.back-golden {
+    background-color:#996830;
+}
+
+
+.size-90 {
+    font-size: 90px;
+}
+
+
+.backVINC {
+    color: #FFA800;
+}
+
+.backADEM {
+    color: #9A0000;
+}
+
+.backRAIS {
+    color: #59FF53;
+}
+
+.WTF-rendre-la-dedans {
+    object-fit: cover;
+}
+
+.WTF-rendre-la-dedans2 {
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+ 
+.margin-top-100 {
+    margin-top: 100px;
+}
+ 
+.margin-top-150 {
+    margin-top: 150px;
+}
+ 
+.margin-top-180 {
+    margin-top: 180px;
+}
+ 
+.margin-top-25 {
+    margin-top: 25px;
+}
+ 
+ 
+.margin-top-50 {
+    margin-top: 50px;
+}
+ 
+.margin-top-250 {
+    margin-top: 250px;
+}
+ 
+.margin-top-300 {
+    margin-top: 300px;
+}
+ 
+.margin-top-200 {
+    margin-top: 200px;
+}
+ 
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+ 
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+ 
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+ 
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+ 
+.margin-bottom-250 {
+    margin-bottom: 250px;
+}
+ 
+.margin-right-200 {
+    margin-bottom: 200px;
+}
+ 
+.padding-20 {
+    padding: 20px;
+}
+ 
+.padding-10 {
+    padding: 10px;
+}
+ 
+.padding-50 {
+    padding: 50px;
+}
+ 
+.gap-40 {
+    gap: 40 Px;
+}
+ 
+.gap-12 {
+    gap: 12 Px;
+}
+ 
+.column-gap-20 {
+    column-gap: 20px;
+}
+ 
+.weight-bolder {
+    font-weight: bolder;
+}
+ 
+ 

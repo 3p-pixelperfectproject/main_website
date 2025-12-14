@@ -23,32 +23,36 @@
 <body>
     <!-- 4 sections: à propos, notre équipe, ... -->
 
-    <header class="flex  space-around padding-20 bgsmart">
+    <header-ac class="flex  space-around  align-center  back-golden">
 
-        <a href="" class="w-20">
-            <img src="asset/3P LOGO4 (1).png" class="w-50 " alt="">
+        <a href="index.html" class="w-20">
+            <img src="asset/3P LOGO4 (1).png" class="w-50 border-radiux-5" alt="">
+            <p>Home Sweet Home</p>
         </a>
 
 
-        <nav class="flex space-center  align-center  gap-80 w-33 ">
+        <nav class="flex space-center  align-center   w-50 padding-20 ">
 
 
-            <a href="fiches.html" class=" w-10 ">
+            <a href="fiches.html" class=" w-20 flex space-center ">
 
-                <img src="asset/ADEMSTAND.JPG" class=" imgROND2 w-20 border-black" alt="">
-
-            </a>
-
-            <a href="equipe.html" class=" w-10 ">
-
-                <img src="asset/VINCSTAND.JPG" class=" imgROND2 w-20 border-black" alt="">
+                <img src="asset/ADEMCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
+                <p class="backADEM">Fiche</p>
 
             </a>
 
+            <a href="equipe.html" class=" w-20 flex space-center ">
 
-            <a href="remerciement.html" class=" w-10 ">
+                <img src="asset/VINCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
+                <p class="backVINC">Équipe</p>
 
-                <img src="asset/RAISTAND.JPG" class=" imgROND2 w-20 border-black" alt="">
+            </a>
+
+
+            <a href="remerciement.html" class=" w-20 flex space-center">
+
+                <img src="asset/RAISCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
+                <p class="backRAIS">Remerciement</p>
 
             </a>
 
@@ -56,37 +60,53 @@
         </nav>
 
 
-        <a href="bibliotheque.html" class="w-25  flex space-end ">
-            <img src="asset/BIBLI.JPG" class="w-50 border-radiux-5 border-black" alt="">
+        <a href="bibliotheque.html" class="w-10 flex space-around  align-center">
+            <img src="asset/reference.jpg" class="w-100 imgROND2" alt="">
+            <p>Recette</p>
         </a>
 
 
 
-    </header>
+    </header-ac>
 
 
     <!-- oui il faut un main nico le robot -->
     <main>
+        
 
         <section>
 
 
+
+
+            <!-- POUR ADEM -->
+
+            <!-- j'ai l'impression qu'il a mis un contenaire, pourquoi c'est si petit -->
+
+            <!-- parent -->
+            <div class="navFiche flex space-between">
+
+                <!-- enfant 1 -->
+                <!-- qu'est qu'il y a dnas menuFiche -->
+
+
+                <div class="w-25 menuFiche">
+                    <button class="btnFiche1 w-100 mt-top-25" onclick="ouvrirFicheBP()"> BANQUE POPULAIRE</button> <br>
+                    <button class="btnFiche2 w-100 mt-top-25" onclick="ouvrirFicheSFI()"> SFI </button><br>
+                    <button class="btnFiche3 w-100 mt-top-25" onclick="ouvrirFicheDoing()"> DOING </button>
+                </div>
+
+
+                <!-- enfant 2 -->
+
+                <div id="fiches" class="w-73"> </div>
+
+
+            </div>
+
+
+
         </section>
-
-        <!-- POUR ADEM -->
-
-        <div class="navFiche flex space-between"> 
-            
-        <div class="w-25 menuFiche">
-        <button class="btnFiche w-100 mt-top-25" onclick="ouvrirFicheBP()">FICHE 3 : BANQUE POPULAIRE</button> <br>
-        <button class="btnFiche w-100 mt-top-25" onclick="ouvrirFicheSFI()"> FICHE 2 : SFI </button><br>
-        <button class="btnFiche w-100 mt-top-25" onclick="ouvrirFicheDoing()"  > FICHE 1 : DOING </button>
-        </div>    
-
-        <div id="fiches"class="w-73"> </div>
-
-        </div>
-
 
 
 
@@ -102,33 +122,37 @@
 
 
 
-    <footer class="flex space-center  align-center  gap-80 w-33 ">
-        
-        
-       
 
 
-            <a href="fiches.html" class=" w-10 ">
-
-                <img src="asset/ADEMSTAND.JPG" class=" imgROND2 w-20 border-black" alt="">
-
-            </a>
-
-            <a href="equipe.html" class=" w-10 ">
-
-                <img src="asset/VINCSTAND.JPG" class=" imgROND2 w-20 border-black" alt="">
-
-            </a>
 
 
-            <a href="remerciement.html" class=" w-10 ">
-
-                <img src="asset/RAISTAND.JPG" class=" imgROND2 w-20 border-black" alt="">
-
-            </a>
+    <footer class="flex   space-center  padding-20 back-golden">
 
 
-        
+
+
+
+        <a href="fiches.html" class=" w-10 flex space-center size-90 backADEM ">
+
+            <i class="ph ph-instagram-logo" class=""></i>
+
+        </a>
+
+        <a href="equipe.html" class=" w-10 flex space-center size-90 backVINC ">
+
+            <i class="ph ph-x-logo" class=""></i>
+
+        </a>
+
+
+        <a href="remerciement.html" class=" w-10 flex space-center size-90 backRAIS  ">
+
+            <i class="ph ph-youtube-logo" class=""></i>
+
+        </a>
+
+
+
 
 
 
