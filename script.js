@@ -375,7 +375,7 @@ ouvrirFicheBP()
 function changerImageAdem(){
 
 document.getElementById("buttonAdem").innerHTML = `<img src="asset/ADEMCRAZ.JPG" class=" imgROND w-50 border-black" alt=""> 
-<a href="index.html"><p class="pColore textCenter">Acceuil</p></a>
+<a href="fiches.html"><p class="pColore textCenter">Fiches</p></a>
                                                    
                                                 
  
@@ -388,7 +388,7 @@ document.getElementById("buttonAdem").innerHTML = `<img src="asset/ADEMCRAZ.JPG"
 function changerImageVincent(){
 
 document.getElementById("buttonVincent").innerHTML = `<img src="asset/VINCRAZ.JPG" class=" imgROND w-50 border-black" alt=""> 
-<a href="remerciement.html"><p class="pColore2 textCenter ">Remerciement</p></a>
+<a href="equipe.html"><p class="pColore2 textCenter ">Équipe</p></a>
                                                    
                                                 
  
@@ -400,7 +400,7 @@ document.getElementById("buttonVincent").innerHTML = `<img src="asset/VINCRAZ.JP
 function changerImageRais(){
 
 document.getElementById("buttonRais").innerHTML = `<img src="asset/RAISCRAZ.JPG" class=" imgROND w-50 border-black" alt=""> 
-<a href="equipe.html"><p class="pColore3 textCenter">Equipe</p></a>
+<a href="remerciement.html"><p class="pColore3 textCenter">Remerciements</p></a>
                                                    
                                                 
  
