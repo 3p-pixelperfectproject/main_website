@@ -401,3 +401,5 @@ function changerImageRais(){
                                             <a href="remerciement.html">  <p class="pColore3 textCenter">Remerciements<p></a>
                                                    `
 }
+
+// CAROUSSEL
