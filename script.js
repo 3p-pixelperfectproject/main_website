@@ -390,7 +390,7 @@ function changerImageVincent(){
                 document.getElementById("buttonVincent").innerHTML =  `
                 
       <img  onclick="changerImageAdem()"  src="asset/VINCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
-                                <a href="equipe.html"><p class="pColore2 textCenter">ÉZquipe<p></a>
+                                <a href="equipe.html"><p class="pColore2 textCenter">Équipe<p></a>
                                                    `
 }
 function changerImageRais(){
