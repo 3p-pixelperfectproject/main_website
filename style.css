@@ -303,12 +303,28 @@ footer-ac {
         padding: 200px;
     }
 
-    .btnFiche{
+    .btnFiche1{
         padding: 20px;
-        background-color: red;
+        background-color: #9A0000;
         color:white; 
+        border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%  ;
     }
  
+    .btnFiche2{
+        padding: 20px;
+        background-color: #FFA800;
+        color:white; 
+        border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%  ;
+    }
+
+        .btnFiche3{
+        padding: 20px;
+        background-color: #59FF53;
+        color:white; 
+        border-radius: 100% 0% 100% 0% / 100% 0% 100% 0% ;
+    }
+
+
     .big-number {
     color: rgba(11, 11, 11, 0.434);
     font-size: 150px;
