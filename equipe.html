@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3P Pixel Perfect Project - Équipe</title>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="script.js" defer></script>
 
     <link rel="stylesheet" type="text/css"
@@ -12,9 +15,11 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
 
-
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+
 
 </head>
 
@@ -27,7 +32,7 @@
 
         <a href="index.html" class="w-20">
             <img src="asset/3P LOGO4 (1).png" class="w-50 border-radiux-5" alt="">
-                  <p>Home Sweet Home </p>
+            <p>Home Sweet Home </p>
         </a>
 
 
@@ -100,9 +105,9 @@
                     <h2 class="size-40 margin-bottom-25 margin-top-25 text-center"> KESAKO LE COLLECTIF 3P?</h2>
 
                     <div class="flex align-center space-between">
-                        <div class="survol2"> 
-                        <img src="asset/3P LOGO4.png" class="w-20" alt="">
-                        </div>       
+                        <div class="survol2" data-aos="zoom-in" data-aos-duration="500">
+                            <img src="asset/3P LOGO4.png" class="w-20" alt="">
+                        </div>
                         <div class="w-60">
                             <p>C'est quoi PIXEL PEFECT PROJECT? C'est juste l'histoire de trois copains qui se sont
                                 rencontrés à
@@ -129,28 +134,29 @@
 
 
                         <!-- div Rais -->
-                        <div class="w-28">
+                        <div class="w-28" data-aos="fade-up" data-aos-duration="500"> 
                             <div class="flex space-around align-center">
                                 <div class="survol">
-                                <img src="asset/RAIS1.png" class="WTF-rendre-la-dedans largeur w-98 " alt="">
+                                    <img src="asset/RAIS1.png" class="WTF-rendre-la-dedans largeur w-98 " alt="">
                                 </div>
                                 <div class="w-60 margin-bottom-10 margin-top-10">
                                     <p class="text-center txtEnGras">Rais BOUAMARA</p>
 
                                 </div>
                             </div>
-                            <p class="textCenter">Avenant et du sérieux, il sait ce qu'il veut, travailler dans la cyber. Mais il va
+                            <p class="textCenter">Avenant et du sérieux, il sait ce qu'il veut, travailler dans la
+                                cyber. Mais il va
                                 falloir
                                 passer
                                 par la case systèmes et réseaux.</p>
                         </div>
 
                         <!-- div vincent -->
-                        <div class="w-28">
+                        <div class="w-28" data-aos="fade-down" data-aos-duration="500">
                             <div class="flex space-around align-center">
-                             <div class="survol">
-                                <img src="asset/VINCENT1.png" class="WTF-rendre-la-dedans largeur w-98 " alt="">
-                               </div>
+                                <div class="survol">
+                                    <img src="asset/VINCENT1.png" class="WTF-rendre-la-dedans largeur w-98 " alt="">
+                                </div>
                                 <div class="w-60 margin-bottom-10 margin-top-10">
                                     <p class="text-center txtEnGras">Vincent NGUYEN</p>
 
@@ -159,23 +165,24 @@
                             <p class="textCenter">Euh, c'est qui lui? Pourquoi il est là lui déjà? </p>
                             </p>
                         </div>
-                        
+
                         <!-- div adem -->
-                        <div class="w-28">
+                        <div class="w-28" data-aos="fade-up" data-aos-duration="500">
                             <div class="flex space-around align-center ">
-                                                             <div class="survol">
-                                <img src="asset/ADEM1.png" class="WTF-rendre-la-dedans largeur w-98 " alt="">
-                             </div>
+                                <div class="survol">
+                                    <img src="asset/ADEM1.png" class="WTF-rendre-la-dedans largeur w-98 " alt="">
+                                </div>
                                 <div class="w-60 margin-bottom-10 margin-top-10">
                                     <p class="textCenter txtEnGras">Joan Adem CHITER</p>
 
                                 </div>
                             </div>
-                            <p class="textCenter">Toujours de bonne humeur, désopilant, facétieux, comique, c'est le boute-en-train du
+                            <p class="textCenter">Toujours de bonne humeur, désopilant, facétieux, comique, c'est le
+                                boute-en-train du
                                 groupe.
                             </p>
                         </div>
-                        
+
                     </div>
 
                 </SECTION>
@@ -240,7 +247,9 @@
 
     </main>
 
-
+<script>
+  AOS.init();
+</script>
 
 </body>
 
