@@ -908,3 +908,7 @@ ul::column::scroll-marker:target-after {
   transition: transform 0.4s ease;
   
 }
+
+.img-zoom:hover {
+  cursor: url("asset/heart-cursor.png") 16 16, pointer;
+}
