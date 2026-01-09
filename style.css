@@ -479,6 +479,7 @@ footer-ac {
 .pColore3 {
     color: #53FD56;
     background-color: black;
+ 
 }
 
 .txt-golden {
@@ -876,4 +877,34 @@ ul::column::scroll-marker:target-after {
   text-decoration: underline;
 }
 
- 
+ .img-zoom {
+  overflow: hidden; /* empêche l’image de dépasser */
+}
+
+.img-zoom img {
+  width: 100%;
+  transition: transform 0.4s ease;
+}
+
+.img-zoom:hover img {
+  transform: scale(1.05);
+  
+}
+
+.img-zoom img {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+.img-zoom {
+  overflow: hidden;
+  border-radius: 12px;
+    border: 2px solid black;   /* bordure ici */
+    
+}
+
+.img-zoom img {
+  display: block;      /* évite les espaces blancs */
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease;
+  
+}
