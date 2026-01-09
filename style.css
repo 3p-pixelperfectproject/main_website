@@ -727,3 +727,8 @@ ul::column::scroll-marker:target-after {
   border: 2px solid red;
   background-color: red;
 }
+
+.plus{
+ 
+    transform: translateY(8px);
+}
