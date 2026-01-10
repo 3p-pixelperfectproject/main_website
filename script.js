@@ -36,7 +36,7 @@ function ouvrirFicheDoing(){
 
                 <!-- mon deuxième enfant -->
 
-                <img src="asset/Logo.png" class="w-40 " alt="">
+                <img src="asset/Logo.png" class="w-50 " alt="">
 
             </div>
 
@@ -47,7 +47,7 @@ function ouvrirFicheDoing(){
             <!-- mon parent -->
             <div class="flex space-between align-center margin-bottom-100">
                 <!-- mon premier enfant -->
-                <img src="asset/big-frederic-peyrard-digital-league.webp" class="w-38" alt="montage">
+                <img src="asset/big-frederic-peyrard-digital-league.webp" class="w-50" alt="montage">
 
 
                 <!-- mon deuxime enfant -->
@@ -110,7 +110,7 @@ function ouvrirFicheDoing(){
 
                 <!-- mon deuxième enfant -->
 
-                <img src="asset/doing la tribune1.png" class="w-40 " alt="">
+                <img src="asset/doing la tribune1.png" class="w-50 " alt="">
 
             </div>
 
@@ -129,18 +129,27 @@ function ouvrirFicheDoing(){
 
             <div class="flex justify-center">
 
-                <div class="w-50 ">
+                    <div class="w-30">
+                        <a href="asset/adem doing.pdf" target="_blank" class="justify-center flex">
+                            <img src="asset/MINIATURE ADEM DOING.png" class="w-50" alt="JOANTHEFAKEONE">
+                        </a>
+                        <p class="text-center">Prise de note brut!</p>
+                    </div>
+
+
+
+                <div class="w-30 ">
                     <a href="asset/V0.pdf" target="_blank" class="justify-center flex">
-                        <img src="asset/vignette-V0.png" class="w-22" alt="">
+                        <img src="asset/vignette-V0.png" class="w-50" alt="">
                     </a>
-                    <p class="text-center">version V0</p>
+                    <p class="text-center">version V1</p>
                 </div>
 
-                <div class="w-50">
+                <div class="w-30">
                     <a href="asset/V3.pdf" target="_blank" class="justify-center flex">
-                        <img src="asset/vignette-V2.png" class="w-22" alt="">
+                        <img src="asset/vignette-V2.png" class="w-50" alt="">
                     </a>
-                    <p class="text-center">version V3</p>
+                    <p class="text-center">version V2</p>
                 </div>
 
             </div>
@@ -272,7 +281,7 @@ function ouvrirFicheSFI(){
 
                     <!-- mon deuxième enfant -->
 
-                    <img src="asset/LA TRIBUNE.jpg" class="w-40 " alt="">
+                    <img src="asset/LA TRIBUNE.jpg" class="w-50 " alt="">
 
                 </div>
 
@@ -332,43 +341,157 @@ function ouvrirFicheBP(){
 
     document.getElementById("fiches").innerHTML = `
     
-   <section class="container-1000 margin-top-100 margin-bottom-250 ">
+   <!-- section-01 -->
+            <section class="container-800 margin-top-100 margin-bottom-250 ">
+
+                <!-- mon parent -->
+                <div class="flex space-between align-center margin-bottom-100">
+
+                    <!-- mon premier enfant -->
+                    <div class="w-40 relative pl-80 ">
 
 
-            <!-- mon parent -->
-            <div class="flex space-between align-center margin-bottom-100">
+                        <p class="big-number">01</p>
 
-                <!-- mon premier enfant -->
-                <div class="w-40 relative pl-80 ">
+                        <!-- trait + titre -->
+                        <div class="flex align-center gap-12 margin-bottom-50">
+                            <div class="trait"></div>
+                            <h2 class="goldy-color size-20 weight-bolder">BANQUE POPULAIRE</h2>
+                        </div>
 
 
-                    <p class="big-number">01</p>
 
-                    <!-- trait + titre -->
-                    <div class="flex align-center gap-12 margin-bottom-50">
-                        <div class="trait"></div>
-                        <h2 class="goldy-color size-30 weight-bolder">BANQUE POPULAIRE</h2>
+
+                        <h3 class="margin-bottom-25 size-50"> Que propose BANQUE POPULAIRE ?</h3>
+
+                        <p class="margin-bottom-25">Au service de près de 10 millions de clients.</p>
+                        <p class=" margin-bottom-25">Banque Populaire collabore étroitement avec les entrepreneurs pour façonner la banque idéale à leurs besoins</p>
+
+                        <a href="https://www.banquepopulaire.fr/emprunter/financer-un-projet-le-pret-tresorerie/?gad_source=1&gad_campaignid=21723987533&gbraid=0AAAAAD4BzOtuaW1IhVO-EbzqizKK-g1TC&gclid=CjwKCAiAjojLBhAlEiwAcjhrDgjpQU5d684vfp2eJD4BDTJwQ0NsJPdKlaPGIpBCzD504fFSUo6eYBoClKoQAvD_BwE#cid=paid-search;retargeting;google;nat-credit-conso;pmax;treso" target="_blank" class="goldy-color btn"> Aller plus loin →</a>
+                    </div>
+
+
+                    <!-- mon deuxième enfant -->
+
+                    <img src="asset/BANQUEPOULAIRELOGO.jpg" class="w-50" alt="">
+
+                </div>
+
+            </section>
+
+            <!-- section-02 -->
+            <section class="container-800 margin-top-100">
+                <!-- mon parent -->
+                <div class="flex space-between align-center margin-bottom-100">
+                    <!-- mon premier enfant -->
+                    <img src="asset/christophe.jpg" class="w-38" alt="montage">
+
+
+                    <!-- mon deuxime enfant -->
+                    <div class="w-40 relative pl-80 ">
+
+
+                        <p class="big-number">02</p>
+
+                        <!-- trait + titre -->
+                        <div class="flex align-center gap-12 margin-bottom-50">
+                            <div class="trait"></div>
+                            <h2 class="goldy-color size-20 weight-bolder">CHRISTOPHE GROSPAS</h2>
+                        </div>
+
+
+
+
+                        <h3 class="margin-bottom-25 size-50"> Qui est CHRISTOPHE GROSPAS ?</h3>
+
+                        <p class="margin-bottom-25"> Responsable Solutions Informatiques </p>
+                        <p class=" margin-bottom-25">Patrice est une personne avec de vraies valeurs humaines.</p>
+
+
+                        <a href="https://www.linkedin.com/in/christophe-grospas-b6211217a/?originalSubdomain=fr" target="_blank"
+                            class="goldy-color btn"> Aller plus loin →</a>
+                    </div>
+
+            </section>
+
+            <!-- section-03 -->
+            <section class="container-800 margin-top-250">
+
+                <!-- mon parent -->
+                <div class="flex space-between align-center margin-bottom-100">
+
+                    <!-- mon premier enfant -->
+                    <div class="w-40 relative pl-80 ">
+
+
+                        <p class="big-number">03</p>
+
+                        <!-- trait + titre -->
+                        <div class="flex align-center gap-12 margin-bottom-50">
+                            <div class="trait"></div>
+                            <h2 class="goldy-color size-20 weight-bolder">Actualité</h2>
+                        </div>
+
+
+
+
+                        <h3 class="margin-bottom-25 size-50"> BANQUE POPULAIRE SUR LINKEDIN!</h3>
+
+                        <p class="margin-bottom-25">POSTE LINKEDIN</p>
+                        <p class=" margin-bottom-25">Loire, 2025. Interview de CHRISTOPHE GROSPAS</p>
+
+                        <a href="https://www.linkedin.com/posts/banque-populaire-auvergne-rhone-alpes_bpaurasengage-latoile-emlyon-activity-7185887217200832512-jCec/?originalSubdomain=fr"
+                            target="_blank" class="goldy-color btn"> Aller plus loin →</a>
+                    </div>
+
+
+                    <!-- mon deuxième enfant -->
+
+                    <img src="asset/LINKEDINBP.jpg" class="w-50 " alt="">
+
+                </div>
+
+            </section>
+
+
+
+            <section class="container-800">
+                <div id="telechargement">
+                    <h2 class="margin-top-200 margin-bottom-100 text-center size-40"> DOCUMENT A TELECHARGER</h2>
+
+                    <p class="margin-top-25 margin-bottom-50 text-center">Veuillez trouver ci-dessous nos documents à
+                        télécharger</p>
+
+                </div>
+
+                <div class="flex justify-center">
+
+                    <div class="w-30">
+                        <a href="asset/PriseDeNoteBrut.pdf" target="_blank" class="justify-center flex">
+                            <img src="asset/vignettebrouillon.png" class="w-50" alt="JOANTHEFAKEONE">
+                        </a>
+                        <p class="text-center">Prise de note brut!</p>
+                    </div>
+
+                    <div class="w-30">
+                        <a href="asset/vincent2.pdf" target="_blank" class="justify-center flex">
+                            <img src="asset/MINIATURE_VINCENT_BP.png" class="w-50" alt="">
+                        </a>
+                        <p class="text-center">version V1</p>
+                    </div>
+
+                    <div class="w-30 ">
+                        <a href="asset/V2.pdf" target="_blank" class="justify-center flex">
+                            <img src="asset/VIGNETTE V2.png" class="w-50" alt="">
+                        </a>
+                        <p class="text-center">version V2</p>
                     </div>
 
 
 
-
-                    <h3 class="margin-bottom-25 size-50"> Que propose la Banque Populaire ?</h3>
-
-                    <p class="margin-bottom-25">Partenaire en développement informatique à Saint-Étienne </p>
-                    <p class=" margin-bottom-25">Solutions digitales sur-mesure éco-responsables</p>
-
-                    <a href="https://www.doing.fr/" target="_blank" class="goldy-color btn"> Aller plus loin →</a>
                 </div>
 
-
-                <!-- mon deuxième enfant -->
-
-                <img src="asset/BP.jpg" class="w-73 " alt="">
-
-            </div>
-
-        </section>
+            </section>
     `;
 }
 
