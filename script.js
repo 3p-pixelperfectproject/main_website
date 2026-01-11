@@ -518,7 +518,7 @@ function ouvrirFicheBP(){
                         <h3 class="margin-bottom-25 size-50"> Qui est Christophe Grospas ?</h3>
 
                         <p class="margin-bottom-25"> Responsable Solutions Informatiques </p>
-                        <p class=" margin-bottom-25">Patrice est une personne avec de vraies valeurs humaines.</p>
+                        <p class=" margin-bottom-25">Christophe est une personne avec de vraies valeurs humaines.</p>
 
 
                         <a href="https://www.linkedin.com/in/christophe-grospas-b6211217a/?originalSubdomain=fr" target="_blank"
