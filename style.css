@@ -7,6 +7,14 @@
     margin: 0;
 }
 
+body {
+    
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
 
 /* -------------------------------------------------------------------------------------- */
 /* MES POLICES*/
@@ -233,8 +241,9 @@
 
 .btn {
     background-color: #996830;
-    color: white;
-    padding: 5px 15px;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 5px;
 }
 
 /* -------------------------------------------------------------------------------------- */
@@ -317,10 +326,11 @@ footer-ac {
 .carEquipe2 {
 
     border-radius: 10px;
-    border: solid, black;
+    
     box-shadow: #181C14;
-    background-color: black;
-    color: #eeeeee;
+    background-color: #996830;
+    color: black;
+    padding: 20px;
 }
 
 
@@ -425,7 +435,7 @@ footer-ac {
 /* FICHES */
 .navFiche {
 
-    padding-top: 250px;
+    padding-top: 50px;
     padding-left: 200px;
 }
 
@@ -436,21 +446,21 @@ footer-ac {
 .btnFiche1 {
     padding: 20px;
     background-color: #9A0000;
-    color: white;
+    color: black;
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
 }
 
 .btnFiche2 {
     padding: 20px;
     background-color: #FFA800;
-    color: white;
+    color: black;
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
 }
 
 .btnFiche3 {
     padding: 20px;
     background-color: #59FF53;
-    color: white;
+    color: black;
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
 }
 
@@ -1018,3 +1028,23 @@ ul::column::scroll-marker:target-after {
   background: rgba(0,0,0,0.8);
 }
 
+.medaillon{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.cardFiche2 {
+
+    border: solid black;
+    border-radius: 10px;
+
+}
+
+
+
+#footer {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}

@@ -12,6 +12,11 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
 
 
     <link rel="stylesheet" href="style.css">
@@ -27,40 +32,40 @@
 
         <a href="index.html" class="w-20">
             <img src="asset/3P LOGO4 (1).png" class="w-50 border-radiux-5" alt="">
-                        <p>Home Sweet Home</p>
+            <p>Home Sweet Home</p>
         </a>
 
 
         <nav class="flex space-center  align-center   w-50 padding-20 ">
 
 
-                <a href="fiches.html" class=" w-20 flex space-center ">
+            <a href="fiches.html" class=" w-20 flex space-center ">
 
-                    <img src="asset/ADEMCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
-                    <p class="backADEM">Fiches</p>
+                <img src="asset/ADEMCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
+                <p class="backADEM">Fiches</p>
 
-                </a>
+            </a>
 
-                <a href="equipe.html" class=" w-20 flex space-center ">
+            <a href="equipe.html" class=" w-20 flex space-center ">
 
-                    <img src="asset/VINCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
-                    <p class="backVINC">Équipe</p>
+                <img src="asset/VINCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
+                <p class="backVINC">Équipe</p>
 
-                </a>
+            </a>
 
 
-                <a href="remerciement.html" class=" w-20 flex space-center">
+            <a href="remerciement.html" class=" w-20 flex space-center">
 
-                    <img src="asset/RAISCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
-                    <p class="backRAIS">Remerciements</p>
+                <img src="asset/RAISCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
+                <p class="backRAIS">Remerciements</p>
 
-                </a>
+            </a>
 
 
         </nav>
 
 
-          <a href="bibliotheque.html" class="w-10 flex space-around  align-center">
+        <a href="bibliotheque.html" class="w-10 flex space-around  align-center">
             <img src="asset/reference.jpg" class="w-100 imgROND2" alt="">
             <p>Recette</p>
         </a>
@@ -75,14 +80,32 @@
 
         <section class=" section-hero-telechargement margin-top-100 flex align-center2 align-center space-around">
 
-           <h1 class="w-20 carEquipe2 size-40">TRANSMISSION</h1>
+            <h1 class="w-20 carEquipe2 size-40">Transmission</h1>
+
+
+        </section>
+
+        <section class="container-800 margin-top-25">
+
+            <h2 class="margin-bottom-25">Avant propos</h2>
+
+            <p>Ce document est un document scolaire. Il n'est pas destiné à être diffusé.</p>
+            <P class="margin-bottom-10">Nous n'avons pas demandé les autorisations d'utiliser les droits d'images, les
+                droits d'auteurs, produits par les différents acteurs (ex. Doing, Sfi, Banque Populaire, journaux etc.)
+                par manque de temps, de
+                moyen et de connaissances.</P>
+            <p>Ce document est un clin à nos professeurs, Ludivine, Ophélie et Nicolas.</p>
+            <p class="margin-bottom-10">Il a pour but de les remercier en mettant en pratique tout ce qu'il nous appris
+                ces quinze derniers jours (et oui, ça n'avait pas l'air mais nous vous avons bien écouté!).</p>
+            <p>Nous espérons que vous apprécierez l'expérience.</p>
+            <p class="  size-25"> Grand merci à vous, Ludivine, Ophélie et Nicolas !
 
 
         </section>
 
 
 
-        
+
 
         <section>
 
@@ -98,9 +121,42 @@
 
 
                 <div class="w-25 menuFiche">
-                    <button class="btnFiche1 w-100 mt-top-25" onclick="ouvrirFicheBP()"> BANQUE POPULAIRE</button> <br>
-                    <button class="btnFiche2 w-100 mt-top-25" onclick="ouvrirFicheSFI()"> SFI </button><br>
-                    <button class="btnFiche3 w-100 mt-top-25" onclick="ouvrirFicheDoing()"> DOING </button>
+                    <button class="btnFiche1 w-100 mt-top-25" onclick="ouvrirFicheBP()"> 
+                        <div>
+
+                        <img src="asset/ADEMCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
+                        1 - BANQUE POPULAIRE
+
+                        </div>
+                    
+                    
+                    </button> <br>
+
+
+
+                    <button class="btnFiche2 w-100 mt-top-25" onclick="ouvrirFicheSFI()"> 
+                        <div>
+                            <img src="asset/VINCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
+                        2 - SFI 
+                    
+                        </div>
+
+                    </button><br>
+
+
+                    <button class="btnFiche3 w-100 mt-top-25" onclick="ouvrirFicheDoing()"> 
+                        
+<div>
+<img src="asset/RAISCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
+                        3 - DOING 
+
+                        </div>
+                    
+                    
+                    </button>
+
+
+
                 </div>
 
 
@@ -133,30 +189,56 @@
 
 
 
-    <footer class="flex   space-center  padding-20 back-golden">
+    <footer class="back-golden">
 
 
 
+        <div class="flex   space-center  padding-20 ">
+
+            <a href="fiches.html" class=" w-10 flex space-center size-90 backADEM ">
+
+                <i class="ph ph-instagram-logo" class=""></i>
+
+            </a>
+
+            <a href="equipe.html" class=" w-10 flex space-center size-90 backVINC ">
+
+                <i class="ph ph-x-logo" class=""></i>
+
+            </a>
 
 
-        <a href="fiches.html" class=" w-10 flex space-center size-90 backADEM ">
+            <a href="remerciement.html" class=" w-10 flex space-center size-90 backRAIS  ">
 
-            <i class="ph ph-instagram-logo" class=""></i>
+                <i class="ph ph-youtube-logo" class=""></i>
 
-        </a>
+            </a>
 
-        <a href="equipe.html" class=" w-10 flex space-center size-90 backVINC ">
-
-            <i class="ph ph-x-logo" class=""></i>
-
-        </a>
+        </div>
 
 
-        <a href="remerciement.html" class=" w-10 flex space-center size-90 backRAIS  ">
 
-            <i class="ph ph-youtube-logo" class=""></i>
+        <div id="">
+            <div id="footer">
 
-        </a>
+            </div>
+
+            <div class=" w-100  id=footer">
+
+                <div class=" flex  margin-bottom-10 w-100  text-center padding-20">
+
+                    <p class="w-100">Ce présent document est un travail scolaire. Document scolaire à ne pas diffuser
+                    </p>
+                    <p class="w-100 "> Designed by 3P - Pixel Pecfect Project | rendu d'un devoir étudiant | La Toile L'École de Management de Lyon
+                        LYON
+                        -
+                        L'école du numérique
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
 
 
 
