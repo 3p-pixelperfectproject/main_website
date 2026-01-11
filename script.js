@@ -654,7 +654,7 @@ function changerImageAdem(){
                 document.getElementById("buttonAdem").innerHTML =  `
                 <div class="plus">
       <img  onclick="changerImageAdem()"  src="asset/ADEMCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
-                                         <a href="fiches.html"> <p class="pColore textCenter">Fiches<p></a>     
+                                         <a href="fiches.html"> <p class="pColore textCenter spe">Fiches<p></a>     
                                                   </div> `
 }
 
@@ -665,7 +665,7 @@ function changerImageVincent(){
                 document.getElementById("buttonVincent").innerHTML =  `
                               <div class="plus">  
       <img  onclick="changerImageAdem()"  src="asset/VINCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
-                                <a href="equipe.html"><p class="pColore2 textCenter">Équipe<p></a>
+                                <a href="equipe.html"><p class="pColore2 textCenter spe">Équipe<p></a>
                                                  </div>   `
 }
 function changerImageRais(){
@@ -673,7 +673,7 @@ function changerImageRais(){
                 document.getElementById("buttonRais").innerHTML =  `
                       <div class="plus"> 
       <img  onclick="changerImageAdem()"  src="asset/RAISCRAZ.JPG" class=" imgROND w-50 border-black" alt="">
-                                            <a href="remerciement.html">  <p class="pColore3 textCenter">Remerciements<p></a>
+                                            <a href="remerciement.html">  <p class="pColore3 textCenter spe">Remerciements<p></a>
                                                      </div>          `
 }
 
