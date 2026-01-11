@@ -183,9 +183,9 @@ function ouvrirFicheDoing(){
 
                 <div id="telechargement" class="flex space-around">
 
-                    <h2 class="margin-top-10 margin-bottom-10 text-center size-40 goldy-color btn w-60"> Document à télécharger</h2>
+                    <h2 class="margin-top-10 margin-bottom-10 text-center size-40 goldy-color btn w-60"> Fiches entreprises à télécharger</h2>
 
-                    <p class="margin-top-25 margin-bottom-50 text-center">Veuillez trouver ci-dessous nos documents à
+                    <p class="margin-top-25 margin-bottom-50 text-center">Veuillez trouver ci-dessous nos fiches entreprises à
                         télécharger</p>
 
                 </div>
@@ -399,9 +399,9 @@ function ouvrirFicheSFI(){
 
                 <div id="telechargement" class="flex space-around">
 
-                    <h2 class="margin-top-10 margin-bottom-10 text-center size-40 goldy-color btn w-60"> Document à télécharger</h2>
+                    <h2 class="margin-top-10 margin-bottom-10 text-center size-40 goldy-color btn w-60"> Fiches entreprises à télécharger</h2>
 
-                    <p class="margin-top-25 margin-bottom-50 text-center">Veuillez trouver ci-dessous nos documents à
+                    <p class="margin-top-25 margin-bottom-50 text-center">Veuillez trouver ci-dessous nos fiches entreprises à
                         télécharger</p>
 
                 </div>
@@ -605,9 +605,9 @@ function ouvrirFicheBP(){
 
                 <div id="telechargement" class="flex space-around">
 
-                    <h2 class="margin-top-10 margin-bottom-10 text-center size-40 goldy-color btn w-60"> Document à télécharger</h2>
+                    <h2 class="margin-top-10 margin-bottom-10 text-center size-40 goldy-color btn w-60"> Fiches entreprises à télécharger</h2>
 
-                    <p class="margin-top-25 margin-bottom-50 text-center">Veuillez trouver ci-dessous nos documents à
+                    <p class="margin-top-25 margin-bottom-50 text-center">Veuillez trouver ci-dessous nos fiches entreprises à
                         télécharger</p>
 
                 </div>
