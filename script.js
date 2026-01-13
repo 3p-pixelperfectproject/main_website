@@ -615,8 +615,8 @@ function ouvrirFicheBP(){
                 <div class="flex justify-center space-between">
 
                     <div class="w-30">
-                        <a href="asset/PriseDeNoteBrut.pdf" target="_blank" class="justify-center space-around flex">
-                            <img src="asset/vignettebrouillon.png" class="w-60 cardFiche2" alt="JOANTHEFAKEONE">
+                        <a href="asset/TablerondedeChristopheGROSPASJoanAdemCHITER.pdf" target="_blank" class="justify-center space-around flex">
+                            <img src="asset/MINIA_christophegrospas.png" class="w-60 cardFiche2" alt="JOANTHEFAKEONE">
                         </a>
                         <p class="textCenter">Prise de note brut!</p>
                     </div>
