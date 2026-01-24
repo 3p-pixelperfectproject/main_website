@@ -1064,3 +1064,19 @@ ul::column::scroll-marker:target-after {
     width: 100%;
     background-color: black;
 }
+
+.cardAlice {
+    border-radius: 10px;
+    border : solid ; 
+    border-color: black;
+}
+
+.boutonMatrix1 {
+    border-radius: 10px;
+    background: linear-gradient(to right, blue,#00416A);
+}
+
+.boutonMatrix2 {
+    border-radius: 10px;
+    background: linear-gradient(to right, red, #c31432);
+}
