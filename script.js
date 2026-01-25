@@ -630,7 +630,7 @@ function ouvrirFicheBP(){
 
                     <div class="w-30 ">
 
-                        <a href="asset/FICHERAIS2.pdf" target="_blank" class="justify-center space-around flex">
+                        <a href="asset/PDFRaisF2.pdf" target="_blank" class="justify-center space-around flex">
                             <img src="asset/vignetteRais2.jpg" class="w-60 cardFiche2" alt="">
                         </a>
                         <p class="textCenter">version V2</p>
