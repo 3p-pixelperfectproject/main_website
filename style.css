@@ -1137,3 +1137,7 @@ box-shadow: 0px 0px 65px 15px rgba(255,46,46,1);
 -moz-box-shadow: 0px 0px 65px 15px rgba(46,84,255,1);
 box-shadow: 0px 0px 65px 15px rgba(46,84,255,1);
 }
+
+.tableau {
+    border: 4mm ridge rgba(220, 172, 50, 0.491);
+}
